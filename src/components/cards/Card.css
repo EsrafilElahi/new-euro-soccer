@@ -1,0 +1,60 @@
+.card-container{
+    margin: 2.3rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    width: 19rem;
+    height: 19rem;
+    border: 1px solid rgba(7, 7, 7, 0.199);
+    box-shadow: 1px 4px 8px 1px rgba(22, 21, 21, 0.473);
+    background-color: rgba(255, 255, 255, 0.795);
+}
+
+.card-img{
+    opacity: .8;
+    width: 18.9rem;
+    height: 12rem;
+    cursor: pointer;
+    transition: all .5s ease-out;
+    box-shadow: 1px 1px 4px 1px rgba(22, 21, 21, 0.473);
+}
+
+.card-img:hover{
+    opacity: 1;
+}
+
+.card-title{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 17px;
+    font-size: 1.5rem;
+}
+
+.card-detail{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

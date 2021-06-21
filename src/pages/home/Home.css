@@ -1,0 +1,107 @@
+.main {
+  background-image: url("/src/img/one.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  box-shadow: .1rem .1rem .3rem black;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.large-size1 {
+  font-size: 3.5rem;
+  margin-top: 12rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.large-size2 {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.small-size1 {
+  font-size: 2rem;
+  margin-top: 14rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.small-size2 {
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.btn-container-large{
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.btn-container-small{
+  display: flex;
+  justify-content: center;
+  padding: 6rem;
+}
+
+.marginLarge{
+  padding: 4rem;
+}
+
+.card-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.card-row-large{
+  display: flex;
+}
+
+.card-row-small{
+  display: flex;
+  flex-direction: column;
+}
+
+.card-main-title{
+  text-align: center;
+  margin-top: 13rem;
+}
+
+.hr{
+  width: 50%;
+  border-bottom: 1px solid rgba(14, 13, 13, 0.671);
+  text-align: center;
+  margin: 1.2rem auto;
+}
+
+.footer {
+  height: 9rem;
+  background-color: rgba(19, 172, 95, 0.479);
+  box-shadow: .1rem .1rem .3rem black;
+}
+
+.button-container{
+  display: flex;
+}
+
+@media only screen and (max-width:540px) {
+  .hr{
+    width: 5% !important;
+  }
+  .button-container{
+    display: block;
+  }
+}

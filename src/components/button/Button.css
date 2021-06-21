@@ -1,0 +1,37 @@
+.btn{
+    outline: none;
+    border: none;
+    width: 7.8rem;
+    height: 2.5rem;
+    cursor: pointer;
+    margin: 5px;
+    transition: all .5s ease-out;
+}
+
+.btn-size-medium{
+    font-size: 1.3rem;
+}
+
+.btn-size-large{
+    font-size: 1.7rem;
+}
+
+.btn-style-primary{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 1px solid rgba(6, 185, 66, 0.521);
+}
+
+.btn-style-outline{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 1px solid rgba(6, 185, 66, 0.521);
+}
+
+.btn-style-primary:hover{
+    background-color: rgb(25, 28, 29);
+}
+
+.btn-style-outline:hover{
+    background-color: rgba(25, 28, 29, 0.733);
+}

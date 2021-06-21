@@ -1,0 +1,37 @@
+
+nav{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    list-style: none;
+    margin-right: 4rem;
+}
+
+li{
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(13, 163, 88);
+    font-size: 12px;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5rem;
+    color: rgb(13, 163, 88);
+}

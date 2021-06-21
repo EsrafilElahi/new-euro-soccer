@@ -1,0 +1,12 @@
+.about-container h3{
+    padding: 5px;
+}
+
+@media only screen and (max-width:540px) {
+    .page-title h1{
+        font-size: 1.5rem;
+    }
+    .hr{
+        width: 95%;
+    }
+}
